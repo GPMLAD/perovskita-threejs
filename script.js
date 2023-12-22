@@ -35,7 +35,7 @@ const octahedronFaceMaterial = new THREE.MeshBasicMaterial({
 
 const octahedronEdgeMaterial = new THREE.LineBasicMaterial({ color: 0x000000 })
 
-const octahedronGeometry = new THREE.OctahedronGeometry(0.8)
+const octahedronGeometry = new THREE.OctahedronGeometry(1)
 const octahedron = new THREE.Mesh(octahedronGeometry, octahedronFaceMaterial)
 scene.add(octahedron)
 
